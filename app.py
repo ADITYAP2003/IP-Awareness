@@ -1,8 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for
-import mysql.connector
-from flask_sqlalchemy import SQLAlchemy
-from datetime import datetime
-import os
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
